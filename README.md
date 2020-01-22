@@ -1,3 +1,23 @@
 # Circumference-of-circle
-Creating a Circumference for a Circle
-This is my first project in C#. I used C# to create a circumference for a circle. It allows user interface so the user can imput their on radius.
+Creating a Circumference for a Circle using C#
+namespace CircleCumference
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            double pI = Math.PI;
+
+            double r;
+            r = Convert.ToDouble(Console.ReadLine());
+
+            if (r > 0)
+            {
+                double circumference = 2 * r * pI;
+                Console.WriteLine("The Circumference is: " + circumference);
+            }
+
+        }
+    }
+}
