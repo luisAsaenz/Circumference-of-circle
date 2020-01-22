@@ -1,5 +1,6 @@
 # Circumference-of-circle
-Creating a Circumference for a Circle using C#
+// Creating a Circumference for a Circle using C#. I applied user interface so that the user can input their own radius
+
 namespace CircleCumference
 {
     class Program
